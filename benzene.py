@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from x_bar_related import *
 from y_bar_related import *
-from Phi import *
 
 # load settings from txt file
 df = pd.read_csv('Benzene.txt', delim_whitespace=True, skiprows=2, header=None)
